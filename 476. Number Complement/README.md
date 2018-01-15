@@ -26,12 +26,12 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 By demostrating the flipping process in bits,can you understand solution1.
 - Solution2:Writing down some groups of input and output:
 >1->0
-2->1
-3->0
-4->3
-5->2
-6->1
-7->0
+>2->1
+>3->0
+>4->3
+>5->2
+>6->1
+>7->0
 
 We can conclude the rule that input x then output $n-x-1$ ,especially $n= 2^i,i>=0$ ,and $\frac{n}{2} \le x < n$
 
